@@ -4,3 +4,8 @@
 !.obsidian/appearance.json
 !.obsidian/community-plugins.json
 !.obsidian/core-plugins.json
+
+
+
+# Ignore Smart Environment folder
+.smart-env
