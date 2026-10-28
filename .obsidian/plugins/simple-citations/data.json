@@ -1,0 +1,35 @@
+{
+  "jsonPaths": [
+    "Literature/AI-Perception.json"
+  ],
+  "jsonNames": [
+    ""
+  ],
+  "folderPath": "Literature",
+  "includeAuthorTag": true,
+  "includeJournalTag": false,
+  "includeBibliography": false,
+  "createdProperty": "date",
+  "optionalFields": [],
+  "includeAbstract": true,
+  "templatePath": "",
+  "templateSample": "first-author",
+  "autoAddCitations": false,
+  "autoSyncCitations": false,
+  "autoUpdateCitations": false,
+  "mergeStrategies": {},
+  "showBaseProperties": false,
+  "jsonUpdatedTimes": {
+    "Literature/AI-Perception.json": 1793157986965
+  },
+  "inputPandocPath": "",
+  "exportFolderPath": "",
+  "pandocHardLineBreaks": true,
+  "pandocLinkCitations": false,
+  "pandocNumberSections": false,
+  "pandocReferenceDoc": "",
+  "pandocArgs": "",
+  "includeBbtPdf": true,
+  "includeBbtCollections": true,
+  "pdfimagesPath": ""
+}

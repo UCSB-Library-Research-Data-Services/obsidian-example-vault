@@ -1,0 +1,19 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.path.startsWith("Literature")
+        - file.ext == "md"
+        - year == 2026
+    order:
+      - file.name
+      - file.mtime
+      - tags
+      - title
+      - year
+      - file.backlinks
+    columnSize:
+      note.year: 104

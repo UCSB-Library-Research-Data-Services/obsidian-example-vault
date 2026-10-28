@@ -1,0 +1,63 @@
+/* ── Settings: file status icons ── */
+
+.simple-citations-status {
+	display: inline-flex;
+	align-items: center;
+	flex-shrink: 0;
+	margin-right: 6px;
+}
+
+.simple-citations-status svg {
+	width: var(--icon-s);
+	height: var(--icon-s);
+}
+
+.simple-citations-status.is-valid {
+	color: var(--text-success);
+}
+
+.simple-citations-status.is-invalid {
+	color: var(--text-error);
+}
+
+/* ── Settings: pandoc / poppler path hint ── */
+
+.simple-citations-binary-hint:empty {
+	display: none;
+}
+
+.simple-citations-binary-hint {
+	margin-top: 4px;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+}
+
+.simple-citations-binary-hint.is-invalid {
+	color: var(--text-error);
+}
+
+/* ── Settings: merge strategies (mobile) ── */
+
+body.is-mobile .simple-citations-merge-list .setting-item {
+	flex-direction: row;
+	align-items: center;
+}
+
+body.is-mobile .simple-citations-merge-list .setting-item > .setting-item-control {
+	width: auto;
+}
+
+.is-mobile .simple-citations-merge-list .setting-item > .setting-item-control select {
+	width: 120px;
+}
+
+/* ── Settings: optional fields ── */
+
+/* Rows have no name; let the field input use the full row width. */
+.simple-citations-optional-field > .setting-item-control {
+	flex-grow: 1;
+}
+
+.simple-citations-optional-field > .setting-item-control input[type="text"] {
+	width: 100%;
+}
